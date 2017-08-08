@@ -43,9 +43,9 @@ app.on('ready', function() {
   
   mainWindow = new BrowserWindow({
     width: 800,
-    height: 470,
+    height: 492,
     acceptFirstMouse: true,
-    titleBarStyle: 'hidden-inset'
+    titleBarStyle: 'hidden'
   });
 
   mainWindow.loadURL('file://' + __dirname + '/../index.html');
