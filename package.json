@@ -1,8 +1,8 @@
 {
-  "name": "macflix",
+  "name": "Blastflix",
   "version": "1.0.0",
-  "description": "Macflix is Netflix on your Mac",
-  "productName": "Macflix",
+  "description": "A NEtflix Electron wrapper for macOS",
+  "productName": "Blastflix",
   "main": "src/main/main.js",
   "scripts": {
     "start": "electron src/main/main.js",
@@ -18,10 +18,10 @@
     "netflix",
     "video"
   ],
-  "author": "Tom Moor",
+  "author": "Alessio Biancalana",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tommoor/macflix/issues"
+    "url": "https://github.com/dottorblaster/blastflix/issues"
   },
   "dependencies": {
     "jquery": "^2.1.4",
